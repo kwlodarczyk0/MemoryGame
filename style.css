@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #444444;
+}
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.moves,
+.rounds {
+  color: whitesmoke;
+  padding: 10px 0;
+  margin: 0 20px;
+}
+
+.panel {
+  display: flex;
+}
+
+.end {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.visibilityHidden {
+  visibility: hidden;
+}
+
+.field {
+  width: 75px;
+  height: 75px;
+  border: 1px solid whitesmoke;
+}
+.field:hover {
+  cursor: pointer;
+}
+
+.btn {
+  color: steelblue;
+  background-color: whitesmoke;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.btn:hover {
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: steelblue;
+}
+
+.orange {
+  background-color: orange;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.hidden {
+  background-color: steelblue;
+  transition: 0.3s;
+}
+
+.active {
+  transition: 0.3s;
+}
